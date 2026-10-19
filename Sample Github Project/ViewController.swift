@@ -36,6 +36,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .orange
+<<<<<<< HEAD
         view.addSubview(stackView)
         NSLayoutConstraint.activate([
             stackView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
@@ -43,6 +44,9 @@ class ViewController: UIViewController {
             imageView.widthAnchor.constraint(equalToConstant: 120),
             imageView.heightAnchor.constraint(equalToConstant: 120)
         ])
+=======
+        label.text = "mylittlepony999"
+>>>>>>> c4765bc (Hi all)
     }
 
 
