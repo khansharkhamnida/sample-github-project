@@ -8,10 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    var label = UILabel()
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemBackground
+        view.backgroundColor = .orange
+        label.text = "Hello World"
     }
 
 
